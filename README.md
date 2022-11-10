@@ -38,7 +38,7 @@ Mobile version
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Fylo-landing-page.git)
-- Live Site URL: [Vercel Live URL](https://tip-calculator-app-six-pearl.vercel.app/)
+- Live Site URL: [Vercel Live URL](https://fylo-landing-page-psi-wine.vercel.app/)
 
 ## My process
 
