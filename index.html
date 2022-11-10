@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a232ea0758.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>
+      Frontend Mentor | Fylo landing page with dark theme and features grid
+    </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo"><img src="/images/logo.svg" alt="" /></div>
+      <nav class="nav">
+        <a href="#features" class="nav__features">Features</a>
+        <a href="#team" class="nav__team">Team</a>
+        <a href="#sign-in" class="nav__sign-in">Sign In</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__img">
+          <img src="/images/illustration-intro.png" alt="" />
+        </div>
+        <div class="background"></div>
+        <div class="hero__body">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>
+            Fylo stores all your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends
+            family, and co-workers.
+          </p>
+          <button type="submit">Get started</button>
+        </div>
+      </section>
+      <section class="features" id="features">
+        <div class="features__files files">
+          <div class="files__img">
+            <img src="/images/icon-access-anywhere.svg" alt="" />
+          </div>
+          <h2>Access your files, anywhere</h2>
+          <p>
+            The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you everywhere.
+          </p>
+        </div>
+        <div class="files__security files">
+          <div class="security__img">
+            <img src="/images/icon-security.svg" alt="" />
+          </div>
+          <h2>Security you can trust</h2>
+          <p>
+            2-factor authentication and user-controlled encryption are just a
+            couple of the security features we allow to help secure your files.
+          </p>
+        </div>
+        <div class="files__colaboration files">
+          <div class="colaboration__img">
+            <img src="/images/icon-collaboration.svg" alt="" />
+          </div>
+          <h2>Real-time collaboration</h2>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+        </div>
+        <div class="files__form files">
+          <div class="form__img">
+            <img src="/images/icon-any-file.svg" alt="" />
+          </div>
+          <h2>Store any type of file</h2>
+          <p>
+            Whether you're sharing holidays photos or work documents, Fylo has
+            you covered allowing for all file types to be securely stored and
+            shared.
+          </p>
+        </div>
+      </section>
+      <section class="productive">
+        <div class="productive__hero">
+          <img src="/images/illustration-stay-productive.png" alt="" />
+        </div>
+        <div class="productive__body">
+          <h1>Stay productive, wherever you are</h1>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+          <div class="body__link">
+            <a href="#">
+              See how Fylo works<i class="fa-solid fa-circle-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials" id="team">
+        <div class="testimonials__cards">
+          <div class="cards__patel cards">
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="patel__profile profile">
+              <div class="profile__icon">
+                <img src="/images/profile-1.jpg" alt="" />
+              </div>
+              <div class="profile__name">
+                <h3>Satish Patel</h3>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards__bruce cards">
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="bruce__profile profile">
+              <div class="profile__icon">
+                <img src="/images/profile-2.jpg" alt="" />
+              </div>
+              <div class="profile__name">
+                <h3>Bruce McKenzie</h3>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards__iva cards">
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="iva__profile profile">
+              <div class="profile__icon">
+                <img src="/images/profile-3.jpg" alt="" />
+              </div>
+              <div class="profile__name">
+                <h3>Iva Boyd</h3>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="access" id="sign-in">
+          <div class="access__text">
+            <h3>Get early access today</h3>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="access__input">
+            <form class="form">
+              <input type="text" id="email" placeholder="email@example.com" />
+              <p class="error">Please enter a valid email adress</p>
+              <button type="submit">Get Started For Free</button>
+            </form>
+          </div>
+        </div>
+        <div class="access__completed">
+          <i class="fa-solid fa-circle-check"></i>
+          <h1>Thank you for signing up!</h1>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo"><img src="/images/logo.svg" alt="" /></div>
+      <div class="footer__body">
+        <div class="body__text group">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+        <div class="body__contact group">
+          <div class="contact__phone">
+            <i class="fa-sharp fa-solid fa-phone-volume"></i>
+            <p>+1-543-123-4567</p>
+          </div>
+          <div class="contact__email">
+            <i class="fa-solid fa-envelope"></i>
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+        <div class="body__links group">
+          <div class="links__alfa">
+            <a href="#">About Us</a><a href="#">Jobs</a><a href="#">Press</a
+            ><a href="#">Blog</a>
+          </div>
+          <div class="links__beta">
+            <a href="#">Contact Us</a><a href="#">Terms</a
+            ><a href="#">Privacy</a>
+          </div>
+        </div>
+        <div class="body__social group">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a
+          ><a href="#"><i class="fa-brands fa-twitter"></i></a
+          ><a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
